@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  background: rgba(245, 222, 179, 0.651);
+  line-height: 1.8;
+  font-family: "Red Hat Display", sans-serif;;
+  max-width: 1440px;
+  min-width: 375px;
+  
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    min-width: auto;
+    background: white;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.h-1{
+    font-size: 40px;
+    font-family: "Young Serif",serif;
+    }
+ .container p{
+    color: rgb(94, 89, 89);
+    font-size: 16px;
+ }   
+
+.container1 h3{
+    color:  hsl(332, 51%, 32%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+}   
+.container1{
+    width: 100%;
+    background:rgba(245, 222, 179, 0.212);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: sans-serif;   
+}
+
+.container1 ul{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0;
+    
+}
+
+.container1 ul li{
+    box-sizing: border-box;
+    padding: 0px 10px;
+    margin: 10px 10px;
+    color:hsl(332, 51%, 15%);
+}
+
+.container2{
+    border-bottom: solid 1px rgba(194, 194, 194, 0.541);
+    padding-bottom: 10px;
+}
+.container2 h2{
+  color:#854632;
+  font-family: "Young Serif",serif;
+  
+}
+
+.container2 ul li{
+   margin: 10px 0px;
+   color: rgb(94, 89, 89);
+}
+
+.container3{
+    border-bottom: solid 1px rgba(194, 194, 194, 0.541);
+    padding-bottom: 10px;
+}
+.container3 h2{
+    color:#854632 ;
+    padding: 10px;
+    font-family: "Young Serif",serif;
+}
+
+
+
+.container3 li{
+    padding: 0px 10px;
+    color: rgb(94, 89, 89);
+}
+.container3 ol li strong{
+    font-weight: bold;
+}
+
+
+.container3 li::marker {
+    
+    font-weight: bold; 
+    color: #854632;
+    font-family: sans-serif;
+}
+
+.container4 h2{
+    color:#854632 ;
+    padding: 10px;
+    font-family: "Young Serif",serif;
+}
+.container4{
+    padding: p;
+}
+
+.container4 table{
+        border-collapse: collapse;
+        width: 100%;
+        padding: 0px 40px;
+}
+
+
+.container4 td {
+  
+  text-align: left;
+  border-bottom: 1px solid rgba(194, 194, 194, 0.541);
+}
+
+.th{
+    color: rgb(94, 89, 89);
+    font-weight: 300;
+    padding: 10px;
+}
+
+.td{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#854632 ;
+    font-weight: bold;
+}
+
+hr{
+background-color:solid 0.5px rgba(194, 194, 194, 0.541) ;
+}
+
